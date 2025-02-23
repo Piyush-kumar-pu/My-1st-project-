@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Kumar - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #105307;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Navigation Menu */
+        .nav {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav a:hover {
+            color: #007bff;
+        }
+
+        /* Text Styles */
+        .hello {
+            font-size: 60px;
+            font-weight: bold;
+            color: #ffcc00;
+            font-family: fantasy;
+        }
+
+        .name {
+            font-size: 40px;
+            font-weight: bold;
+            color: #ff6666;
+            font-family: 'Georgia', serif;
+        }
+
+        .student {
+            font-size: 30px;
+            color: #66ccff;
+            font-style: italic;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        /* Profile Button */
+        .profile-btn {
+            background: white;
+            color: #007bff;
+            padding: 12px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        /* Hover Effect */
+        .profile-btn:hover {
+            background: #007bff;
+            color: white;
+        }
+
+        /* Click (Active) Effect */
+        .profile-btn:active {
+            transform: scale(0.95);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu (Top-Right) -->
+    <div class="nav">
+        <a href="http://127.0.0.1:5500/HTML%20&%20CSS/newportfolio.html">🏠 Home</a>
+        <a href="mailto:me.piyush03@gmail.com">📞 Email</a>
+    </div>
+
+    <h1 class="hello!">Hello!</h1>
+    <br>
+    <h2 class="name">My name is Piyush Kumar</h2>
+    <br>
+
+    <p class="student">I am a BTech CSE student.</p>
+
+    <!-- View Profile Button -->
+    <a href="http://127.0.0.1:5500/HTML%20&%20CSS/portfolio.htm" class="profile-btn">📄 View My Profile</a>
+
+</body>
+</html>
